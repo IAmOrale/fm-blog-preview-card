@@ -34,6 +34,7 @@ main {
 .container {
   background-color: var(--white);
   max-width: 384px;
+  max-height: 522px;
   height: auto;
   border-radius: 1.25rem;
   box-shadow: 7px 7px 1px black;
@@ -64,11 +65,11 @@ h1:hover {
 }
 
 .main-text p:first-child {
-  margin-top: 1.8rem;
+  margin-top: 1.5rem;
 }
 
 .main-text p:nth-child(2) {
-  margin: 1rem 0;
+  margin-top: 1rem;
 }
 
 .main-text p:last-child {
@@ -83,11 +84,14 @@ p:first-child {
   border-radius: 0.25rem;
 }
 
+.author {
+  margin-bottom: 2rem;
+}
+
 .author ul {
   list-style: none;
   display: flex;
   align-items: center;
-  padding-bottom: 0.5rem;
 }
 
 .author ul img {
@@ -99,8 +103,8 @@ p:first-child {
 
 @media (max-width: 768px) {
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
   }
 }
 /* .attribution {
