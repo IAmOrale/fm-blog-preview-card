@@ -42,7 +42,7 @@ main {
 }
 
 .container:hover {
-  box-shadow: 10px 10px 1px black;
+  box-shadow: 12px 12px 1px black;
 }
 
 .main-img img {
@@ -79,7 +79,7 @@ h1:hover {
 p:first-child {
   background-color: var(--yellow);
   display: inline-block;
-  padding: 0.3rem 0.7rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 0.25rem;
 }
 
@@ -96,12 +96,12 @@ p:first-child {
   padding-top: 0.3rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .container {
-    padding: 0 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
-
 /* .attribution {
   font-size: 11px;
   text-align: center;
