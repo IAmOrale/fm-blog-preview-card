@@ -99,12 +99,13 @@ p:first-child {
   height: auto;
   margin-right: 0.7rem;
   padding-top: 0.3rem;
+  z-index: 2;
 }
 
 @media (max-width: 768px) {
-  .container {
-    padding-left: 3rem;
-    padding-right: 4rem;
+  main {
+    padding-left: 2rem;
+    padding-right: 3rem;
   }
 }
 /* .attribution {
