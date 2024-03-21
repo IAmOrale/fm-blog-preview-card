@@ -18,6 +18,11 @@ body {
   font-weight: 500;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 main {
   min-height: 100vh;
   display: flex;
@@ -28,7 +33,7 @@ main {
 
 .container {
   background-color: var(--white);
-  width: 384px;
+  max-width: 400px;
   height: auto;
   border-radius: 1.25rem;
   box-shadow: 7px 7px 1px black;
@@ -42,8 +47,6 @@ main {
 
 .main-img img {
   border-radius: 0.625rem;
-  display: block;
-  width: 100%;
 }
 
 h1 {
@@ -91,6 +94,12 @@ p:first-child {
   height: auto;
   margin-right: 0.7rem;
   padding-top: 0.3rem;
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 1rem;
+  }
 }
 
 /* .attribution {
