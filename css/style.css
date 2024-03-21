@@ -33,7 +33,7 @@ main {
 
 .container {
   background-color: var(--white);
-  max-width: 400px;
+  max-width: 384px;
   height: auto;
   border-radius: 1.25rem;
   box-shadow: 7px 7px 1px black;
@@ -87,6 +87,7 @@ p:first-child {
   list-style: none;
   display: flex;
   align-items: center;
+  padding-bottom: 0.5rem;
 }
 
 .author ul img {
